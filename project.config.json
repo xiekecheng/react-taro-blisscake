@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "react-taro-blisscake",
   "description": "幸福西饼",
-  "appid": "touristappid",
+  "appid": "wxff7fe8a650e2f6c4",
   "setting": {
     "urlCheck": true,
     "es6": false,

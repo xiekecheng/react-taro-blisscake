@@ -2,7 +2,7 @@
  * @Author: xiekc
  * @Date: 2021-09-05 01:32:06
  * @LastEditors: xkccoding@gmail.com
- * @LastEditTime: 2021-09-05 01:49:31
+ * @LastEditTime: 2021-09-06 12:08:40
  * @FilePath: /react-taro-blisscake/config/index.js
  */
 const config = {
