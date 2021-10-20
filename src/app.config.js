@@ -7,9 +7,11 @@
  */
 export default {
   pages: [
-    'pages/goods/detail/detail',
     'pages/mine/mine',
     'pages/home/home',
+    'pages/goods/detail/detail',
+
+
     'pages/index/index',
     'pages/goods/goods',
 

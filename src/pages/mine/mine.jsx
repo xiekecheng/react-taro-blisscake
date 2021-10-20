@@ -2,9 +2,7 @@ import { Component } from "react";
 import { View, Text } from "@tarojs/components";
 import { observer, inject } from "mobx-react";
 // import Taro, { Component, Config } from '@tarojs/taro'
-// import { View } from '@tarojs/components'
-import { AtButton,AtGrid } from "taro-ui";
-// import { AtGrid } from "taro-ui";
+import { AtGrid } from "taro-ui";
 import "./mine.scss";
 
 @inject("store")
@@ -34,9 +32,13 @@ class Index extends Component {
     // const { counterStore: { counter } } = this.props.store
     return (
       <View className='my-mine'>
-        <Text>我的</Text>
-        <AtButton type='primary'>按钮文案</AtButton>
-        {/* 我的服务 */}
+        {/* <View className='member at-row at-row-wrap'>
+            <View className='at-col'>A</View>
+            <View className='at-col'>B</View>
+            <View className='at-col'>C</View>
+        </View> */}
+
+        {/* 我的服务 Start */}
         <View className='my-service'>
           <Text>我的服务</Text>
           <AtGrid
@@ -71,10 +73,15 @@ class Index extends Component {
               {
                 image:
                   "https://img30.360buyimg.com/jdphoto/s72x72_jfs/t5770/97/5184449507/2423/294d5f95/595c3b4dNbc6bc95d.png",
-                value: "退出登录",
+                value: "建行钱包",
               },
             ]}
           />
+        </View>
+        {/* 我的服务 End */}
+        <Text>为你推荐</Text>
+        <View>
+          
         </View>
       </View>
     );
